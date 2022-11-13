@@ -1,0 +1,528 @@
+{
+  "licenseKey": "321",
+  "reseau": "ParisCity",
+  "warningMessageCount": 250,
+  "themeColor": "#1f1f1f",
+  "colors": [
+    "#EF5350",
+    "#EC407A",
+    "#AB47BC",
+    "#7E57C2",
+    "#5C6BC0",
+    "#42A5F5",
+    "#29B6F6",
+    "#26C6DA",
+    "#26A69A",
+    "#66BB6A",
+    "#9CCC65",
+    "#D4E157",
+    "#FFCA28",
+    "#FFA726",
+    "#FF7043",
+    "#8D6E63",
+    "#78909C"
+  ],
+
+  "useFormatNumberFrance": false,
+
+  "useTwitterAutoAccount": true,
+
+  "useWebRTCVocal": false,
+  "RTCConfig": {
+    "iceServers": [{
+      "urls": ["turn:barrax.needrp.net"],
+      "username": "gcphone",
+      "credential": "gcphone"
+    }]
+  },
+
+  "//": "REQUIRES https://github.com/citizenfx/screenshot-basic otherwise set enableTakePhoto to false. Thanks to @GLDmACK for his Upload Service!!!", 
+  "enableTakePhoto": true,
+  "fileUploadService_Url": "https://wew.wtf/upload.php",
+  "fileUploadService_Field": "files[]",
+
+  "ringtones": {
+    "iPhone Default": "iphonex.mp3",
+    "Astronomia": "astronomia.mp3",
+    "Fersah": "fersah.mp3",
+    "XTENTACION Night": "night.mp3",
+    "Imanbek Roses": "imanbek.mp3",
+    "Cradles": "cradles.mp3"
+  },
+  "ringtone_default": {
+    "label": "iPhone Default",
+    "value": "iphonex.mp3"
+  },
+
+  "background": {
+    "White desert": "back001.jpg",
+    "Palms": "back002.jpg",
+    "Santa Mónica Beach": "back003.jpg",
+    "Route 66": "color.jpg",
+    "Classic tokyo": "humo.jpg",
+    "Dark planet": "iluminacion.jpg",
+    "AstroNeon": "neon.jpg",
+    "Illuminated planet": "oscuridad.jpg",
+    "Wild beach": "playa.jpg",
+    "Winter landscape": "paisajes.jpg",
+    "Tokio neon": "tokio.jpg",
+    "Custom URL": "URL"
+  },
+ 
+  "background_default": {
+    "label": "Dark planet",
+    "value": "iluminacion.jpg"
+  },
+
+
+  "coque": {
+    "Sansumg S8": "s8.png",
+    "Iphone X": "iphonex.png",
+    "Brick Base": "base.png",
+    "Transparent": "transparent.png"
+  },
+  "coque_default": {
+    "label": "iPhone",
+    "value": "iphone.png"
+  },
+
+
+  "serviceCall": [{
+      "display": "Police",
+      "backgroundColor": "blue",
+      "number": "police"
+    },
+    {
+      "display": "Ambulance",
+      "backgroundColor": "red",
+      "number": "ambulance"
+    },
+    {
+      "display": "Gouvernement",
+      "backgroundColor": "blue",
+      "number": "gouv"
+    },
+    {
+      "display": "Taxi",
+      "backgroundColor": "yellow",
+      "number": "taxi"
+    },
+    {
+      "display": "Benny's",
+      "backgroundColor": "green",
+      "number": "mechanic"
+    },
+    {
+      "display": "Vicious Customs",
+      "backgroundColor": "green",
+      "number": "mechanicmoto"
+    },
+    {
+      "display": "Grande Motors",
+      "backgroundColor": "green",
+      "number": "grandemotors"
+    },
+    {
+      "display": "Concessionnaire",
+      "backgroundColor": "green",
+      "number": "cardealer"
+    },
+    {
+      "display": "Concessionnaire Motos",
+      "backgroundColor": "green",
+      "number": "bikedealer"
+    },
+    {
+      "display": "Concessionnaire Off-Road",
+      "backgroundColor": "green",
+      "number": "roaddealer"
+    },
+    {
+      "display": "Concessionnaire Occasion",
+      "backgroundColor": "green",
+      "number": "concessoccasion"
+    },
+    {
+      "display": "Pharmacie",
+      "backgroundColor": "green",
+      "number": "pharmacie"
+    },
+    {
+      "display": "El Memento Tattoo",
+      "backgroundColor": "green",
+      "number": "tattooshopelburro"
+    },
+    {
+      "display": "Nix Tattoo Shop",
+      "backgroundColor": "green",
+      "number": "tattooshop"
+    },
+    {
+      "display": "Tabac",
+      "backgroundColor": "green",
+      "number": "tabac"
+    },
+    {
+      "display": "KFC",
+      "backgroundColor": "red",
+      "number": "kfc"
+    },
+    {
+      "display": "Burgershot",
+      "backgroundColor": "green",
+      "number": "burgershot"
+    },
+    {
+      "display": "Diner",
+      "backgroundColor": "green",
+      "number": "diner"
+    },
+    {
+      "display": "The Hen House",
+      "backgroundColor": "green",
+      "number": "henhouse"
+    },
+    {
+      "display": "Giovani Immo",
+      "backgroundColor": "green",
+      "number": "realestate"
+    },
+    {
+      "display": "",
+      "backgroundColor": "green",
+      "number": ""
+    }
+  ],
+
+  "defaultContacts": [{
+      "number": "ambulance",
+      "display": "Ambulance",
+      "backgroundColor": "red",
+      "letter": "A"
+    },
+    {
+      "number": "police",
+      "display": "Police",
+      "backgroundColor": "blue",
+      "letter": "P"
+    }
+  ],
+  "apps": [
+    {
+      "name": "Twitter",
+      "fr_FR__name": "Twitter",
+      "icons": "/html/static/img/icons_app/twitter.png",
+      "routeName": "twitter.splash",
+      "enabled": true
+    },
+    {
+      "name": "Pages Jaune",
+      "fr_FR__name": "Pages Jaune",
+      "icons": "/html/static/img/icons_app/yellow.png",
+      "routeName": "yellow.splash",
+      "enabled": false
+    },
+    {
+      "name": "Téléphone",
+      "fr_FR__name": "Téléphone",
+      "icons": "/html/static/img/icons_app/call.png",
+      "routeName": "appels",
+      "inHomePage": true
+    },
+    {
+      "name": "Messages",
+      "fr_FR__name": "Messages",
+      "icons": "/html/static/img/icons_app/sms.png",
+      "routeName": "messages",
+      "puceRef": "nbMessagesUnread",
+      "enabled": true,
+      "inHomePage": true
+    },
+    {
+      "name": "Contacts",
+      "fr_FR__name": "Contacts",
+      "icons": "/html/static/img/icons_app/contacts.png",
+      "routeName": "contacts",
+      "enabled": true
+    },
+    {
+      "name": "Paramètres",
+      "fr_FR__name": "Paramètres",
+      "icons": "/html/static/img/icons_app/settings.png",
+      "routeName": "parametre",
+      "enabled": true
+    },
+    {
+      "name": "Banque",
+      "fr_FR__name": "Banque",
+      "icons": "/html/static/img/icons_app/bank.png",
+      "routeName": "bank",
+      "enabled": true
+    },
+    {
+      "name": "Factures",
+      "fr_FR__name": "Factures",
+      "icons": "/html/static/img/icons_app/fatura.png",
+      "routeName": "faturalar",
+      "enabled": false
+    },
+    {
+      "name": "Youtube",
+      "fr_FR__name": "Youtube",
+      "icons": "/html/static/img/icons_app/youtube.png",
+      "routeName": "youtube",
+      "enabled": true
+    },
+    {
+      "name": "Caméra",
+      "fr_FR__name": "Caméra",
+      "icons": "/html/static/img/icons_app/photo.png",
+      "routeName": "photo",
+      "enabled": true
+    },
+    {
+      "name": "Dark Chat",
+      "fr_FR__name": "Dark Chat",
+      "icons": "/html/static/img/icons_app/tchat.png",
+      "routeName": "tchat",
+      "enabled": true
+    },
+    
+    {
+      "name": "Bourse",
+      "fr_FR__name": "Bourse",
+      "icons": "/html/static/img/icons_app/bourse.png",
+      "routeName": "bourse",
+      "enabled": false
+    },
+    {
+      "name": "Voiturier",
+      "fr_FR__name": "Voiturier",
+      "icons": "/html/static/img/icons_app/vale.png",
+      "routeName": "vale",
+      "enabled": false
+    },
+    {
+      "name": "News",
+      "fr_FR__name": "News",
+      "icons": "/html/static/img/icons_app/news.png",
+      "routeName": "news",
+      "enabled": false
+    },
+    {
+      "name": "Wanted",
+      "fr_FR__name": "Recherchés",
+      "icons": "/html/static/img/icons_app/wanted.png",
+      "routeName": "wanted",
+      "enabled": false
+    },
+    {
+      "name": "Uber Eats",
+      "fr_FR__name": "Uber Eats",
+      "icons": "/html/static/img/icons_app/ubere.png",
+      "routeName": "uber",
+      "enabled": true
+    },
+    {
+      "name": "Gallerie",
+      "fr_FR__name": "Gallerie",
+      "icons": "/html/static/img/icons_app/gallery.png",
+      "routeName": "gallery",
+      "enabled": false
+    }
+  ],
+  "defaultLanguage": "fr_FR",
+  "language": {
+    "fr_FR": {
+      "NAME": "Français",
+      "PHONE_WARNING_MESSAGE": "Saturation mémoires !",
+      "APP_MESSAGE_MESS_NUMBER": "Envoyer un message au : ",
+      "PHONE_WARNING_MESSAGE_MESS": "Messages",
+      "CONFIRM": "Accepter",
+      "CANCEL": "Annuler",
+      "APP_RINGTONE": "Sonnerie",
+      "APP_NEWS": "Actualités",
+      "APP_NEWS_DETAIL": "Détail actualités",
+      "APP_YOUTUBE_TITLE": "Youtube",
+      "APP_YOUTUBE_PRESS_ENTER": "Appuyez sur Entrée ou cliquez",
+      "APP_YOUTUBE_PLAY": "Play",
+      "APP_YOUTUBE_STOP": "Stop",
+      "APP_YOUTUBE_PAUSE": "Pause",
+      "APP_YOUTUBE_SEARCH": "Rechercher",
+      "APP_BANK_AMOUNT": "MONTANT",
+      "APP_BANK_SOCIETY_AMOUNT": "MONTANT SOCIÉTÉ",
+      "APP_BANK_LATEST_HISTORY": "Historique",
+      "APP_BANK_SHOW_ALL": "AFFICHER TOUT",
+      "APP_BANK_INCOMING": "ENTRANT",
+      "APP_BANK_OUTGOING": "SORTANT",
+      "APP_BANK_SEND_AMOUNT": "MONTANT",
+      "APP_BANK_SEND_AMOUNT_EMPTY": "Le montant ne peut pas être vide",
+      "APP_BANK_SEND_ID_EMPTY": "IBAN ne peut pas être vide(User ID)",
+      "APP_HOME_MESSAGES": "MESSAGES",
+      "APP_CONFIG_TITLE": "Paramètres",
+      "APP_CONFIG_MY_MUNBER": "Mon numéro",
+      "APP_CONFIG_WALLPAPER": "Fond d'écran",
+      "APP_CONFIG_CASE": "Coque Téléphone",
+      "APP_CONFIG_ZOOM": "Zoom",
+      "APP_CONFIG_VOLUME": "Volume",
+      "APP_CONFIG_LANGUAGE": "Language",
+      "APP_CONFIG_MOUSE_SUPPORT": "Contrôle souris",
+      "APP_CONFIG_RESET": "Format",
+      "APP_CONFIG_RESET_CONFIRM": "SUPPRIMER TOUT",
+      "APP_PHONE_NAME": "Téléphone",
+      "APP_PHONE_CALL": "Appel",
+      "APP_PHONE_DELETE": "Supprimer",
+      "APP_PHONE_DELETE_ALL": "Tout supprimer",
+      "APP_PHONE_TITLE": "Numéro de téléphone",
+      "APP_PHONE_MENU_FAVORITES": "Favoris",
+      "APP_PHONE_MENU_RECENTS": "Récents",
+      "APP_PHONE_MENU_CONTACTS": "Contacts",
+      "APP_PHONE_NUMBER_HIDDEN": "Numéro masqué",
+      "APP_PHONE_NUMBER_UNKNOWN": "Inconnu(e)",
+      "APP_PHONE_ENTER_NUMBER": "Entrez un numéro",
+      "APP_PHONE_CALL_IGNORE": "Ignoré",
+      "APP_PHONE_SAVE": "Enregistrer le contact",
+      "APP_BANK_TITLE": "Banque",
+      "APP_BOURSE_TITLE": "Marché de la crypto",
+      "APP_BOURSE_SUB_TITLE": "Échange de crypto",
+      "APP_BOURSE_BANK": "Banque",
+      "APP_BOURSE_HAVE": "Vous avez ",
+      "APP_BOURSE_ERROR": "Erreur",
+      "APP_BOURSE_CORRECT_NUMBER": "Veuillez saisir un numéro valide",
+      "APP_BOURSE_CORRECT_COUNT": "Veuillez saisir un nombre valide",
+      "APP_BOURSE_BUY": "Acheter",
+      "APP_BOURSE_SELL": "Vendre",
+      "APP_CONTACT_TITLE": "Contacts",
+      "APP_CONTACT_SUB_TITLE": "Ajouter un nouveau contact",
+      "APP_CONTACT_NEW": "Nouveau contact",
+      "APP_CONTACT_EDIT": "Modifier le contact",
+      "APP_CONTACT_SAVE": "Enregistrer",
+      "APP_CONTACT_CANCEL": "Annuler",
+      "APP_CONTACT_DELETE": "Supprimer",
+      "APP_CONTACT_LABEL_NAME": "Prénom - Nom",
+      "APP_CONTACT_LABEL_NUMBER": "Numéro",
+      "APP_FATURA_TITLE": "Factures",
+      "APP_FATURA_PAY": "Payer une facture",
+      "APP_FATURA_AMBULANCE": "Ambulance",
+      "APP_FATURA_POLICE": "LSPD",
+      "APP_FATURA_CAR_DEALER": "Concessionnaire",
+      "APP_FATURA_MECHANIC": "Mécano",
+      "APP_FATURA_UNKNOWN": "Inconnu(e)",
+      "APP_MESSAGE_MESS_CALL": "Appel",
+      "APP_MESSAGE_TITLE": "Messages",
+      "APP_MESSAGE_NEW_MESSAGE": "Envoyer un message",
+      "APP_MESSAGE_ERASE_CONVERSATION": "Supprimer le message",
+      "APP_MESSAGE_ERASE_ALL_CONVERSATIONS": "Supprimer tous les messages",
+      "APP_MESSAGE_SEND_GPS": "Envoyer la position GPS",
+      "APP_MESSAGE_SEND_PHOTO": "Envoyer une photo",
+      "APP_MESSAGE_SET_GPS": "Position GPS",
+      "APP_MESSAGE_ZOOM_IMG": "Zoom sur image",
+      "APP_MESSAGE_DELETE": "Supprimer",
+      "APP_MESSAGE_SMS": "message texte",
+      "APP_MESSAGE_CONTACT_TITLE": "Contacts",
+      "APP_MESSAGE_CONTRACT_ENTER_NUMBER": "Entrez un numéro",
+      "APP_MESSAGE_PLACEHOLDER_ENTER_MESSAGE": "Envoyer un message",
+      "APP_DARKTCHAT_TITLE": "DarkNet",
+      "APP_DARKTCHAT_NEW_CHANNEL": "Ajouter une channel",
+      "APP_DARKTCHAT_DELETE_CHANNEL": "Supprimer le channel",
+      "APP_DARKTCHAT_CANCEL": "abort",
+      "APP_DARKTCHAT_PLACEHOLDER_ENTER_MESSAGE": "Entrez un message",
+      "APP_TWITTER_NAME": "Twitter",
+      "APP_TWITTER_VIEW_TWITTER": "Twitter",
+      "APP_TWITTER_VIEW_TOP_TWEETS": "Mon Tweets",
+      "APP_TWITTER_VIEW_TWEETER": "Tweets",
+      "APP_TWITTER_VIEW_SETTING": "Paramètres",
+      "APP_TWITTER_NEW_ACCOUNT_USERNAME": "Login (>= 4)",
+      "APP_TWITTER_NEW_ACCOUNT_PASSWORD": "Mot de passe (>= 6)",
+      "APP_TWITTER_NEW_ACCOUNT_PASSWORD_CONFIRM": "Confirmer mot de passe",
+      "APP_TWITTER_NEW_ACCOUNT_AVATAR": "URL de votre avatar",
+      "APP_TWITTER_PLACEHOLDER_MESSAGE": "Quel est ton problème ?",
+      "APP_TWITTER_BUTTON_ACTION_TWEETER": "Tweeter",
+      "APP_TWITTER_ACCOUNT_LOGIN": "Connectez-vous au site Web",
+      "APP_TWITTER_ACCOUNT_LOGOUT": "Se déconnecter de l'emplacement",
+      "APP_TWITTER_ACCOUNT_PARAM": "Mon compte",
+      "APP_TWITTER_ACCOUNT_AVATAR": "Changer d'avatar",
+      "APP_TWITTER_ACCOUNT_USERNAME_CHANGE": "Changer login",
+      "APP_TWITTER_ACCOUNT_CHANGE_PASSWORD": "Change mot de passe",
+      "APP_TWITTER_ACCOUNT_NEW": "Nouveau compte",
+      "APP_TWIITER_ACCOUNT_SAVE": "enregistrement",
+      "APP_TWIITER_ACCOUNT_CREATE": "Créer le compte",
+      "APP_TWIITER_ACCOUNT_CANCEL": "Annuler",
+      "APP_TWITTER_ACCOUNT_USERNAME": "login",
+      "APP_TWITTER_ACCOUNT_PASSWORD": "mot de passe",
+      "APP_TWITTER_NOTIFICATION": "Paramètres de notification",
+      "APP_TWITTER_NOTIFICATION_WHEN": "Etre notifié",
+      "APP_TWITTER_NOTIFICATION_ALL": "Toutes les nouvelles",
+      "APP_TWITTER_NOTIFICATION_MENTION": "Juste Mentions",
+      "APP_TWITTER_NOTIFICATION_NEVER": "Rien",
+      "APP_TWITTER_NOTIFICATION_SOUND": "Jouez un son",
+      "APP_TWITTER_NOTIFICATION_SOUND_YES": "Oui",
+      "APP_TWITTER_NOTIFICATION_SOUND_NO": "Non",
+      "APP_TWITTER_NOTIF_ACCOUNT_CREATE_SUCCESS": "Votre compte Twitter a été créé.",
+      "APP_TWITTER_NOTIF_ACCOUNT_CREATE_ERROR": "Votre compte Twitter n'a pas pu être créé (login déjà utilisé ?)",
+      "APP_TWITTER_NOTIF_LOGIN_SUCCESS": "Vous êtes connecté à Twitter.",
+      "APP_TWITTER_NOTIF_LOGIN_ERROR": "Compte invalide / mot de passe",
+      "APP_TWITTER_NOTIF_AVATAR_SUCCESS": "Votre avatar a été modifié !",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_SUCCESS": "Votre mot de passe a été changé.",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_ERROR": "Oops.... Votre mot de passe n'a pas pu être changé.",
+      "APP_TWITTER_NOTIF_NEW_USERNAME_SUCCESS": "Votre login a été modifié.",
+      "APP_TWITTER_NOTIF_NEW_USERNAME_ERROR": "Oops.... Votre login n'a pas pu être modifié.",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_MISS_MATCH": "Mauvais mot de passe",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_LENGTH_ERROR": "Mot de passe trop court",
+      "APP_TWITTER_NOTIF_NEW_USERNAME_LENGTH_ERROR": "Login trop court",
+      "APP_TWITTER_LIKE_UNLIKE": "Like / Unlike",
+      "APP_TWITTER_RETWEET": "Retweet",
+      "APP_TWITTER_NEWTWEET": "Nouveau tweet",
+      "APP_TWITTER_SENDTWEET": "Envoyez un Tweet",
+      "APP_YELLOW_TITLE": "Pages Jaunes",
+      "APP_YELLOW_CALL": "Appeler l'annonceur",
+      "APP_YELLOW_MESSAGE": "Envoyer un message à l'annonceur",
+      "APP_YELLOW_SEND_POST": "Envoyer un message texte",
+      "APP_YELLOW_SEND_POST_IMAGE": "Envoyer une image",
+      "APP_YELLOW_NEW_POST": "Nouveau poste",
+      "APP_YELLOW_NOTIFICATION_ALL": "Tous les messages",
+      "APP_YELLOW_NOTIFICATION_MENTION": "Seulement pour moi",
+      "APP_YELLOW_NOTIFICATION_NEVER": "Rien",
+      "APP_YELLOW_NOTIFICATION_SOUND": "Jouez un son",
+      "APP_YELLOW_NOTIFICATION_SOUND_YES": "Oui",
+      "APP_YELLOW_NOTIFICATION_SOUND_NO": "Non",
+      "APP_YELLOW_MYPOSTS": "Mes publications",
+      "MODAL_INPUT": "Que ce passe-t-il ?",
+      "APP_CHANGE_USERNAME": "Entrez un nouveau login",
+      "APP_VALET_TITLE": "Voiturié",
+      "APP_VALE_GET": "Obtenir voiture",
+      "APP_VALET_IN_GARAGE": "Dans le garage",
+      "APP_VALET_OUTSIDE": "Sortie",
+      "APP_UBER_TITLE": "Uber Eats",
+      "APP_UBER_WAIT": "En attente de commande",
+      "APP_UBER_DELIVERY_ADRESS": "Adresse de livraison",
+      "APP_UBER_ORDER": "Article de commande: ",
+      "APP_UBER_SEARCH_DELIVERY": "Recherche de livraison",
+      "APP_UBER_SEARCH_DELIVERY_START": "Cliquez ou entrez pour lancer la recherche de livraison",
+  
+  
+      "SUCCESS_DELETE": "Supprimé avec succès",
+      "SUCCESS_LIKE": "Like avec succès",
+      "SUCCESS_RETWEET": "RT avec succès",
+      "SUCCESS_SEND": "Envoyé avec succès",
+      "SUCCESS_AVATAR_CHANGED": "Avatar mis à jour",
+      "SUCCESS_CHANGE_USERNAME": "Login mis à jour",
+      "SUCCESS_CHANGE_SETTINGS": "Paramètres mis à jour",
+      "VALET_CALLED": "Avec succès",
+      "VIDEO_SEARCH": "Avec succès",
+      "SUCCESS_MESSAGE": "Transaction réussie",
+      "ERROR_MESSAGE": "La transaction a échoué",
+  
+      "TIMEAGO": [
+        "à l'instant",
+        ["il y a %s seconde", "il y a %s secondes"],
+        ["il y a %s minute", "il y a %s minutes"],
+        ["il y a %s heure", "il y a %s heures"],
+        ["il y a %s jour", "il y a %s jours"],
+        ["il y a %s semaine", "il y a %s semaines"],
+        ["il y a %s mois", "il y a %s mois"],
+        ["il y a %s an", "il y a %s ans"]
+      ]
+    }
+  }
+}

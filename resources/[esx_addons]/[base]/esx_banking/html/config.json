@@ -1,0 +1,101 @@
+{
+    "lang":"FR",
+    "__comment":"On DYNAMIC_FORM_DATA  do not change 'componentName',  'elementID'!",
+    "FR":{
+        "DYNAMIC_FORM_DATA":[
+            {
+                "componentName":"moreGraph",
+                "elementID":"#wrapper",
+                "title":"",
+                "closeButtonText":"Fermer",
+                "bankTitle":"Société générale",
+                "mainExitButtonText": "Se déconnecter"
+            },
+            {
+                "elementID":"#cpincode",
+                "name":"cpincode",
+                "buttonText":"Approuver",
+                "inputPlaceholder": "Entrez 4 chiffres...",
+                "title":"CONFIGURATION DU CODE PIN",
+                "description": "Ici, vous pouvez définir ou modifier le code PIN.",
+                "type":"password"
+            },
+            {
+                "elementID":"#withdraw",
+                "name":"withdraw",
+                "buttonText":"Approuver",
+                "inputPlaceholder": "Amount",
+                "title":"RETIRER",
+                "description": "Ici, vous pouvez retirer votre argent de la banque.",
+                "type":"number"
+            },
+            {
+                "elementID":"#deposit",
+                "name":"deposit",
+                "buttonText":"Approuver",
+                "inputPlaceholder": "Amount",
+                "title":"DEPOSER",
+                "description": "Ici, vous pouvez déposer votre argent à la banque.",
+                "type":"number"
+            },
+            {
+                "elementID":"#transfer",
+                "name":"transfer",
+                "buttonText":"Transférer",
+                "inputPlaceholder": "Montant",
+                "inputPlaceholder2": "ID du joueur",
+                "title":"TRANSFÉRER",
+                "description": "Ici, vous pouvez transférer votre argent à quelqu'un d'autre."
+            },
+            {
+                "componentName":"trans",
+                "elementID":"#third-column",
+                "title":"Historique des transactions",
+                "description": "Ici, vous pouvez voir l'historique de vos transactions.",
+                "moreHistoryText": "Afficher plus d'historique",
+                "moreGraphText": "Afficher plus de graphique"
+            },
+            {
+                "componentName":"pincodePanel",
+                "elementID":"#wrapper",
+                "title":"Entrez le PIN",
+                "deleteButtonText": "<i class='fa-solid fa-ban'></i>",
+                "loginButtonText": "<i class='fa-solid fa-right-to-bracket'></i>",
+                "closeButtonText": "Fermer"
+            },
+            {
+                "componentName":"atmComponent",
+                "elementID":"#wrapper",
+                "title":"Société générale",
+                "closeButtonText":"Se déconnecter"
+            }
+        ],
+        "LAUNGAGE": {
+            "your_money_title":"Solde",
+            "your_money_desc":"Ici, vous pouvez voir votre solde actuel et votre trésorerie.",
+            "your_money_cash_label":"Votre argent",
+            "your_money_bank_label":"Solde du compte",
+            "withdraw":"retirer",
+            "deposit":"déposer",
+            "transfer":"transférer",
+            "transferReceive":"TRANSFERT REÇU",
+            "moneyFormat":"$__replaceData__",
+            "graphTitle":"Votre solde",
+            "moreGraphTitle": "Grand graphique",
+            "moreHistoryTitle":"Afficher plus d'historique",
+            "inputErrorTitle":"Les données sont incorrectes",
+            "inputErrorMessage":"Il ne peut pas être vide ou avoir une valeur inférieure à 1 !",
+            "showPincodeErrorTitle":"PIN incorrect",
+            "showPincodeErrorMessage":"Le pin doit comporter au moins 4 caractères !",
+            "tableLang":{
+                "typeLabel": "Type de transaction",
+                "balanceLabel":"Solde",
+                "amountLabel":"Quantité",
+                "timeLabel":"Temps",
+                "searchInputPlaceholder":"Recherche ...",
+                "_comment": "tableFullLanguage options: English,Hungarian you can find here all lang: https://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/",
+                "tableFullLanguage":"French" 
+            }
+        }
+    }
+}
