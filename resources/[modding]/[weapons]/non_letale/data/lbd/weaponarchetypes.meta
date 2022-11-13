@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		
+		
+		<Item>
+			<modelName>w_lr_lbd</modelName>
+			<txdName>w_lr_lbd</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>W_AT_eotech</modelName>
+			<txdName>W_AT_eotech</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="30"/>
+		</Item>
+		<Item>
+			<modelName>W_lr_muni</modelName>
+			<txdName>W_lr_muni</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="30"/>
+		</Item>
+		<Item>
+			<modelName>w_ex_ballecaou</modelName>
+			<txdName>w_ex_ballecaou</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="30"/>
+		</Item>
+		<Item>
+			<modelName>w_lr_lbd2</modelName>
+			<txdName>w_lr_lbd2</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="30"/>
+		</Item>
+		<Item>
+			<modelName>W_lr_muni2</modelName>
+			<txdName>W_lr_muni2</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="30"/>
+		</Item>
+
+		
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

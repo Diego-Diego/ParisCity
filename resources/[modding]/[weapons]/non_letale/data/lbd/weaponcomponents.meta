@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponComponentInfoBlob>
+  <Data>
+  </Data>
+  <Infos>
+		
+    <Item type="CWeaponComponentScopeInfo">
+      <Name>COMPONENT_AT_EOTECH</Name>
+      <Model>w_at_eotech</Model>
+      <LocName>WCT_SCOPE_MED</LocName>
+      <LocDesc>WCD_SCOPE_MED</LocDesc>
+      <AttachBone>Scope</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="5" />
+      <HudRange value="0" />
+      <CameraHash />
+      <RecoilShakeAmplitude value="0.280000" />
+      <ExtraZoomFactorForAccurateMode value="1.200000" />
+      <Reticule value="0" />
+      <ReticuleHash />
+    </Item>
+
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_LBD40_MUNI</Name>
+      <Model>w_lr_muni</Model>
+      <LocName>WCT_CLIP1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="1" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+    </Item>
+
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_LBD40_MUNI2</Name>
+      <Model>w_lr_muni2</Model>
+      <LocName>WCT_CLIP1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="2" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+    </Item>
+
+		
+  </Infos>
+  <InfoBlobName>DLC - lbd</InfoBlobName> 
+</CWeaponComponentInfoBlob>

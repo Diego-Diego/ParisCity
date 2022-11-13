@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPedInventoryLoadOutManager>
+  <LoadOuts>
+		
+    <Item>
+      <Name>LOADOUT_CHEAT_0</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_lbd</WeaponName>
+          <Ammo value="20" />
+          <Flags />
+          <ComponentNames>
+            <Item>COMPONENT_AT_AR_FLSH</Item>
+            <Item>COMPONENT_AT_AR_AFGRIP</Item>
+            <Item>COMPONENT_AT_EOTECH</Item>
+            <Item>COMPONENT_LBD40_MUNI</Item>
+          </ComponentNames>
+      </Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_lbd2</WeaponName>
+          <Ammo value="20" />
+          <Flags />
+          <ComponentNames>
+            <Item>COMPONENT_LBD40_MUNI2</Item>
+          </ComponentNames>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_CHEAT_1</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_lbd</WeaponName>
+          <Ammo value="20" />
+          <Flags />
+          <ComponentNames>
+            <Item>COMPONENT_AT_AR_FLSH</Item>
+            <Item>COMPONENT_AT_AR_AFGRIP</Item>
+            <Item>COMPONENT_AT_EOTECH</Item>
+            <Item>COMPONENT_LBD40_MUNI</Item>
+          </ComponentNames>
+        </Item>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_lbd2</WeaponName>
+          <Ammo value="20" />
+          <Flags />
+          <ComponentNames>
+            <Item>COMPONENT_LBD40_MUNI2</Item>
+          </ComponentNames>
+        </Item>
+      </Items>
+    </Item>
+		
+  </LoadOuts>
+</CPedInventoryLoadOutManager>

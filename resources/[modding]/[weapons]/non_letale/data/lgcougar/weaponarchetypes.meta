@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+
+
+		<Item>
+			<modelName>w_lr_lgcougar</modelName>
+			<txdName>w_lr_lgcougar</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="30"/>
+		</Item>
+		<Item>
+			<modelName>w_lr_munilg</modelName>
+			<txdName>w_lr_munilg</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="30"/>
+		</Item>
+		<Item>
+			<modelName>w_lr_munilg2</modelName>
+			<txdName>w_lr_munilg2</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="30"/>
+		</Item>
+
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>
